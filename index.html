@@ -15,6 +15,14 @@
     <title>Document</title>
   </head>
   <body>
-    <script type="text/babel"></script>
+    <h1>My Website</h1>
+    <div id="banner"></div>
+    <footer>
+      <p>footer</p>
+    </footer>
+    <script type="text/babel">
+      const root = ReactDOM.createRoot(document.getElementById('banner'))
+      root.render(<h1>Hello World!</h1>)
+    </script>
   </body>
 </html>
